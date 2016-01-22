@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eccf1a2cb72813a3099bc2618ea9d6430b92f0fc">
+        <dex dex="/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/build/intermediates/pre-dexed/debug/classes-ecba840abd05f968f307af1365df798a76359b80.jar" />
+    </item>
+    <item
+        jar="/home/gustavosmc/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.0/e019d15a13a9786f881141d2df6654b8510bce8b/core-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/build/intermediates/pre-dexed/debug/core-3.2.0-06824f6da5ddae1fc7843a2f3d218a7a56ce6586.jar" />
+    </item>
+
+</items>

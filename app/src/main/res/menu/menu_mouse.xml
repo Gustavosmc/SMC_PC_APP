@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.epmind.smc_pc.activity.MouseActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:icon="@drawable/gears"
+        android:orderInCategory="100" android:showAsAction="withText" />
+
+    <item android:id="@+id/it_mouse" android:icon="@drawable/mouse"
+        android:title="Modo mouse derecional"
+        android:showAsAction="withText"/>
+</menu>

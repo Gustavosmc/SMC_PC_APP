@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="3.0.3"><source path="/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.3/assets"/></dataSet><dataSet config="main"><source path="/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/src/main/assets"/></dataSet><dataSet config="debug"><source path="/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/src/debug/assets"/></dataSet></merger>

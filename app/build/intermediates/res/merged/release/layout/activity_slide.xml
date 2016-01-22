@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.epmind.smc_pc.activity.SlideActivity"
+    android:background="@color/blue_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <GridLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <ImageButton
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:id="@+id/ib_up"
+            android:background="@drawable/arrow_up"
+            android:layout_centerVertical="true"
+            android:layout_row="3"
+            android:layout_column="6" />
+
+        <ImageButton
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:id="@+id/ib_left"
+            android:background="@drawable/arrow_left"
+            android:layout_centerVertical="true"
+            android:layout_row="4"
+            android:layout_column="5" />
+
+        <ImageButton
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:id="@+id/ib_right"
+            android:background="@drawable/arrow_right"
+            android:layout_centerVertical="true"
+            android:layout_row="4"
+            android:layout_column="7" />
+
+        <ImageButton
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:id="@+id/ib_down"
+            android:background="@drawable/arrow_down"
+            android:layout_centerVertical="true"
+            android:layout_row="5"
+            android:layout_column="6" />
+    </GridLayout>
+
+
+</LinearLayout>
+<!-- From: file:/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/src/main/res/layout/activity_slide.xml -->

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.epmind.smc_pc.activity.SlideActivity">
+
+
+    <item
+        android:id="@+id/action_suspension"
+        android:title="Modo Suspensão"
+        android:icon="@drawable/suspension"
+        android:showAsAction="withText|ifRoom"
+        />
+</menu>
+<!-- From: file:/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/src/main/res/menu/menu_slide.xml -->

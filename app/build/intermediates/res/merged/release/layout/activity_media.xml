@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.epmind.smc_pc.activity.MediaActivity"
+    android:orientation="vertical"
+    android:background="@color/blue_background"
+    android:gravity="center"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.56"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="4">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:background="@drawable/button_rew"
+            android:layout_weight="0.75"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton6"
+            android:background="@drawable/button_pause"
+            android:layout_weight="0.75"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton7"
+            android:background="@drawable/button_play"
+            android:layout_weight="0.75"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton8"
+            android:background="@drawable/button_ff"
+            android:layout_weight="0.75"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.60"
+        android:gravity="center"
+        android:weightSum="4">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:background="@drawable/button_begin"
+            android:layout_weight="0.5"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButto2"
+            android:background="@drawable/button_end"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+<!-- From: file:/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/src/main/res/layout/activity_media.xml -->

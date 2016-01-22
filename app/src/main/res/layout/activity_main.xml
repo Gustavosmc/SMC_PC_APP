@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_main"
+    tools:context=".MainActivity"
+    android:background="@color/blue_background"
+    android:weightSum="1">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+
+        <LinearLayout
+            android:id="@+id/ll_scroll_main"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_mouse"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="#b6ced9"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                style="@android:style/ButtonBar"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/iv_mouse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mouse"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_mouse"
+                    android:id="@+id/tv_mouse"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/ll_slide"
+                    android:clickable="true"
+                    android:background="#b6ced9"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_slide"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/presentation"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_slide"
+                        android:id="@+id/tv_slide"
+                        android:textSize="25sp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"/>
+
+                </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/ll_midia"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:background="#b6ced9"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_midia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/movie_clap"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_midia"
+                        android:id="@+id/tv_midia"
+                        android:textSize="25sp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"/>
+
+                </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+            android:id="@+id/ll_game"
+            android:longClickable="true"
+            android:clickable="true"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:background="#b6ced9"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/game_controller"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_game"
+                android:id="@+id/tv_game"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>

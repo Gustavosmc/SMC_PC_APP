@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.epmind.smc_pc.activity.MediaActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
+<!-- From: file:/media/gustavosmc/smc_epmind/epm_workspace/work_android/SMC_PC/app/src/main/res/menu/menu_media.xml -->
